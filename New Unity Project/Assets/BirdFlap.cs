@@ -8,8 +8,15 @@ public class BirdFlap : MonoBehaviour
 	public GameScreenManager sm;
 	public ObstacleSpawner os;
 
+    public AudioSource Die;
+    public AudioSource Hit;
+    public AudioSource Point;
+    public AudioSource Swoosh;
+    public AudioSource Wing;
+
+
 	public float velocity = 1;
-	public int score; //Keeps track of the user's code. (try to display this to screen???)
+	public int score;
 	public bool isLost = false;
 	public bool disableControls = false;
 	private Rigidbody2D RigidBody;
@@ -28,8 +35,14 @@ public class BirdFlap : MonoBehaviour
     {
         if((Input.GetMouseButtonDown(0) || Input.GetKeyDown("space")) && !disableControls)
         {
+        	Swoosh.Play();
+        	Wing.Play();
         	RigidBody.velocity = Vector2.up * velocity; //Launches bird to represent flapping.
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, targetAngle_up, 0.95f); //Rotates bird up when bird flaps.
+        }
+        if((Input.GetMouseButtonDown(0) && disableControls))
+        {
+            sm.Replay();
         }
         if(isLost == false)
         {
@@ -45,8 +58,11 @@ public class BirdFlap : MonoBehaviour
     {
         if (!isLost) //Ensures this code only runs once
         {
+            Hit.Play();
+            PipeMoveLeft.velocity = 0;
             RigidBody.velocity = Vector2.up * 3; //Simulates bird death
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, targetAngle_up, 0.95f);
+            Die.Play();
         }
         isLost = true;
         disableControls = true;
@@ -62,6 +78,7 @@ public class BirdFlap : MonoBehaviour
             }
             else if (col.gameObject.name == "Middle")
             {
+                Point.Play();
                 score = score + 1; //Updates the user's score when they pass between the pipes.
                 Destroy(col.gameObject);
             }
@@ -70,5 +87,10 @@ public class BirdFlap : MonoBehaviour
     public string GetScore()
     {
         return score.ToString();
+    }
+
+    public bool IsDead()
+    {
+        return isLost;
     }
 }
