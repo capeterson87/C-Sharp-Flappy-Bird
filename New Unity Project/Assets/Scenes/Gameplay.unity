@@ -171,7 +171,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 34f9d25036dc2274a8c3f61de421eb63, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.364
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -554,7 +554,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ad35df4314c906c429ed704016219e1e, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.425
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -686,7 +686,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 64ad98be7bd74fd49937afae18c2e1b1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.235
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -976,7 +976,7 @@ Transform:
   m_GameObject: {fileID: 752958241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 118, z: -9915.162}
-  m_LocalScale: {x: 155.06163, y: 155.06163, z: 155.06163}
+  m_LocalScale: {x: 130, y: 130, z: 130}
   m_Children: []
   m_Father: {fileID: 1532098357}
   m_RootOrder: 0
@@ -1011,6 +1011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 1532098353}
+  gameStartScreen: {fileID: 1727012540}
   score: {fileID: 1495077221}
 --- !u!4 &841576311
 Transform:
@@ -1055,7 +1056,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f3700ead419d9c14fbd5cedffbe02592, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.287
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1526,13 +1527,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 96e10f39a4f1b9446ab981d276090ffe, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.324
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 130
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

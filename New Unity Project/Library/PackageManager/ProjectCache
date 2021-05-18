@@ -1,22 +1,22 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/daliv/Desktop/Unity Projects/C-Sharp-Flappy-Bird-main/New
+    m_FilePath: C:/Users/User/Desktop/C-Sharp-Flappy-Bird/C-Sharp-Flappy-Bird/New
       Unity Project/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637552740330000000
-    m_Hash: 2245594901
+      ticks: 637553145470593955
+    m_Hash: 1385789116
   m_LockFileStatus:
-    m_FilePath: C:/Users/daliv/Desktop/Unity Projects/C-Sharp-Flappy-Bird-main/New
+    m_FilePath: C:/Users/User/Desktop/C-Sharp-Flappy-Bird/C-Sharp-Flappy-Bird/New
       Unity Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637552740330000000
-    m_Hash: 3477169618
+      ticks: 637553145470603943
+    m_Hash: 2358934726
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -27,7 +27,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.2.6
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.2d.animation@4.2.6
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
@@ -106,7 +106,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.2
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.2d.pixel-perfect@3.0.2
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
@@ -168,7 +168,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.1.6
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.2d.psdimporter@3.1.6
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
@@ -299,7 +299,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 4.1.4
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.2d.spriteshape@4.1.4
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
@@ -434,7 +434,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
@@ -494,7 +494,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.1
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.ide.rider@1.2.1
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
@@ -554,7 +554,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.3
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.ide.visualstudio@2.0.3
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
@@ -604,7 +604,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
@@ -654,7 +654,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.18
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.test-framework@1.1.18
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
@@ -716,7 +716,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
@@ -797,7 +797,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.6
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.timeline@1.3.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
@@ -2658,7 +2658,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.ext.nunit@1.0.0
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
@@ -2710,7 +2710,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
@@ -2762,7 +2762,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.2d.common@3.0.1
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
@@ -2828,7 +2828,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 3.0.2
       source: 1
-      resolvedPath: C:\Users\daliv\Desktop\Unity Projects\C-Sharp-Flappy-Bird-main\New
+      resolvedPath: C:\Users\User\Desktop\C-Sharp-Flappy-Bird\C-Sharp-Flappy-Bird\New
         Unity Project\Library\PackageCache\com.unity.2d.path@3.0.2
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
@@ -2876,6 +2876,6 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/daliv/Desktop/Unity Projects/C-Sharp-Flappy-Bird-main/New
+m_ProjectPath: C:/Users/User/Desktop/C-Sharp-Flappy-Bird/C-Sharp-Flappy-Bird/New
   Unity Project/Packages
 m_EditorVersion: 2020.1.13f1 (5e24f28bfbc0)

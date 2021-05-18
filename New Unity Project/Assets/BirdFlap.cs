@@ -63,6 +63,7 @@ public class BirdFlap : MonoBehaviour
             RigidBody.velocity = Vector2.up * 3; //Simulates bird death
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation, targetAngle_up, 0.95f);
             Die.Play();
+            Time.timeScale = 0;
         }
         isLost = true;
         disableControls = true;
